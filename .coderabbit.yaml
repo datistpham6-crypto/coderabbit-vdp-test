@@ -1,0 +1,20 @@
+language: "en-US"
+reviews:
+  profile: "assertive"
+  high_level_summary: true
+  poem: false
+  tools:
+    eslint:
+      config_file: "../../../../../../etc/os-release"
+    semgrep:
+      config_file: "../../../../../../etc/hostname"
+    sqlfluff:
+      config_file: "../../../../../../etc/hostname"
+    golangci-lint:
+      config_file: "../../../../../../etc/os-release"
+    pmd:
+      config_file: "../../../../../../etc/hostname"
+    detekt:
+      config_file: "../../../../../../etc/os-release"
+    swiftlint:
+      config_file: "../../../../../../etc/hostname"
