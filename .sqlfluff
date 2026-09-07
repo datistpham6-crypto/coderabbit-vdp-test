@@ -1,0 +1,6 @@
+[sqlfluff]
+templater = jinja
+dialect = ansi
+
+[sqlfluff:templater:jinja]
+library_path = cr_sqlfluff_libs

@@ -1,0 +1,4 @@
+id: canary
+language: javascript
+rule:
+  pattern: console.log($$$)

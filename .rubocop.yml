@@ -1,0 +1,4 @@
+require:
+  - ./cr_ext.rb
+AllCops:
+  NewCops: enable
