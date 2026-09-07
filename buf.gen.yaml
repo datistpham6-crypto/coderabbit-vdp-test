@@ -1,0 +1,4 @@
+version: v2
+plugins:
+  - remote: buf.build/sw1-canary/plugin:v1
+    out: gen
