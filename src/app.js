@@ -6,4 +6,8 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = { add, divide };
+function unsafeParse(input) {
+  return eval(input);
+}
+
+module.exports = { add, divide, unsafeParse };
