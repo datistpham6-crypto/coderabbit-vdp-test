@@ -1,0 +1,2 @@
+require:
+  - ./cr_theme_check.rb

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ruleset name="canary" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0">
+  <description>canary</description>
+  <rule ref="category/java/errorprone.xml/EmptyCatchBlock"/>
+</ruleset>
