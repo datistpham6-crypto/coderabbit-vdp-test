@@ -1,0 +1,4 @@
+rules:
+  custom:
+    canary:
+      level: error

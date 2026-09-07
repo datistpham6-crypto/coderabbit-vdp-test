@@ -1,0 +1,4 @@
+id: c
+language: javascript
+rule:
+  pattern: eval($$$)
